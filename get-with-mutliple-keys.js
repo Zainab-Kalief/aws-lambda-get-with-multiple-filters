@@ -18,7 +18,7 @@ export async function main(event, context, callback) {
 
   if (params.length) {
     PersonScan = PERSON.scan();
-    params.forEach(key => (PersonScan = PersonScan.where(key).equals(eventData[key]))); // this is were the magic happens
+    params.forEach(key => (PersonScan = PersonScan.where(key).equals(eventData[key]))); // this is where the magic happens
 
     PersonScan.exec((error, data) => {
       scanPromise(error, data)
