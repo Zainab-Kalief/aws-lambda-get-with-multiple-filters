@@ -1,0 +1,8 @@
+{
+  "body": "{\"name\":\"Thomas\",\"address\":\"4444 lekki expressway\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1235"
+    }
+  }
+}
